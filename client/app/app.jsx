@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import Todo from './rbellande/todo/todo.jsx';
 
 export default class App extends Component {
+  constructor() {
+    super();
+    this.todo = {
+      name: 'test',
+      description: 'my description'
+    }
+  }
   render() {
     return (
-    <div  className="title">
-      <h1>Hello World</h1>
-    </div>
+      <Todo todo={ this.todo }/>
     );
   }
 }

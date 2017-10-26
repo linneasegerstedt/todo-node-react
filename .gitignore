@@ -1,0 +1,23 @@
+# compiled output
+dist/*
+
+# dependencies
+node_modules
+
+# misc
+npm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
